@@ -16,6 +16,7 @@ const ContactsForm = ({ onAddContact, contacts }) => {
         name,
         number,
       });
+
       setName('');
       setNumber('');
     }
